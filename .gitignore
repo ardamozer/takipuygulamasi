@@ -1,0 +1,24 @@
+## .NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## Build çıktıları
+[Dd]ebug/
+[Rr]elease/
+
+## NuGet
+packages/
+*.nupkg
+
+## Yerel veritabanı / loglar
+*.db
+*.log
+
+## Repo köküne kopyalanan launcher (üretilen çıktı; post-build kopyası)
+/HetabilBaslat.exe
+
+## Karşı-PC kurulum paketi
+/dist/

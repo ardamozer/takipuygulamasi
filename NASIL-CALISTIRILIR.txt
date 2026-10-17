@@ -1,0 +1,34 @@
+HETABIL AKTIVITE TAKIP - NASIL CALISTIRILIR (Yonetici Demosu)
+============================================================
+
+Gereksinim: Windows 10/11 (.NET Framework 4.6).
+
+ADIMLAR
+-------
+1. Bu klasörü bir yere çıkarın (örnek: Masaüstü).
+
+2. "HetabilBaslat.exe" dosyasına CIFT TIKLAYIN.
+   -> Küçük bir "Hetabil Baslatici" kontrol paneli açılır.
+
+3. Panelde  [ Hepsini Başlat ]  butonuna basin.
+   -> Sırayla Backend, Agent ve yönetim Paneli baslar.
+      (Backend açılırken Windows yönetici/UAC izni sorabilir; "Evet" demeniz
+       önerilir. "Hayır" deseniz de uygulama yerelde çalışmaya devam eder.)
+
+4. Açılan panele YONETICI olarak giriş yapın:
+        Kullanıcı adi : admin
+        Parola        : admin123
+   -> Yönetici görünümü açılır: tüm kullanıcıların raporları, dashboard,
+      günlük/haftalık çalışma sureleri ve olay kayıtları.
+
+NOTLAR
+------
+- Dashboard bos görünüyorsa: Agent bir sure çalışsın. Ekranı kilitleyip
+  (Win+L) tekrar açın, birkaç dakika bekleyin; olaylar dashboard'a düşer.
+- Kapatmak için:
+    * Backend  -> kontrol panelinden [ Backend Durdur ]
+    * Agent    -> sistem tepsisindeki Hetabil simgesine sağ tik -> Çıkış
+- Tek tek de başlatabilirsiniz: kontrol panelindeki Backend / Agent / Panel
+  butonları.
+
+Daha fazla bilgi: PROJE-ANLATIM.md  (mimari ve tasarım kararları)
